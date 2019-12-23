@@ -1,0 +1,23 @@
+{
+  "name": "type-graphql-demo",
+  "version": "0.0.0",
+  "description": "repo to illustrate possible type-graphql bug.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "apollo-server": "^2.9.14",
+    "graphql": "^14.5.8",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "type-graphql": "^0.17.6"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
